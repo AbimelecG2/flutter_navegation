@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 class DirectionDetailPage extends StatelessWidget {
   const DirectionDetailPage({super.key});
 
- @override
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Second Route'),
+        title: const Text('Direction - Detail'),
       ),
       body: Center(
         child: ElevatedButton(
@@ -19,4 +19,4 @@ class DirectionDetailPage extends StatelessWidget {
       ),
     );
   }
-}
+} 
